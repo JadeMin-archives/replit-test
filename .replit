@@ -1,5 +1,5 @@
 hidden = [".config", "package-lock.json"]
-language = ""
+language = "nix"
 
 entrypoint = "./src"
 onBoot = "pnpm install"
