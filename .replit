@@ -1,4 +1,4 @@
-language = "nix"
+language="nix"
 
 hidden = ["pnpm-lock.yaml"]
 onBoot = "pnpm install"
