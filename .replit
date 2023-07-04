@@ -10,7 +10,7 @@ run = "pnpm run start"
 
 
 [nix]
-	channel = "stable-23_05-small"
+	channel = "stable-23_05"
 
 
 [packager]
