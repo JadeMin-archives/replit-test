@@ -4,6 +4,7 @@ language = "typescript"
 entrypoint = "./src"
 onBoot = "pnpm install"
 run = "pnpm run start"
+compile = ""
 
 [gitHubImport]
 	requiredFiles = [".replit", "replit.nix", "package.json", "pnpm-lock.yarn"]
