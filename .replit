@@ -1,7 +1,5 @@
 hidden = [".config", "package-lock.json"]
 
-language = "javascript"
-
 entrypoint = "./src"
 onBoot = "pnpm install"
 run = "pnpm run start"
