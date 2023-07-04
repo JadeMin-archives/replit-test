@@ -15,6 +15,7 @@ run = "pnpm run start"
 
 [packager]
 	language = "nodejs-pnpm"
+	# afterInstall = "clear"
 
 	[packager.features]
 		packageSearch = true
