@@ -1,0 +1,21 @@
+hidden = [".config", "package-lock.json"]
+language = "nodejs"
+
+entrypoint = "./src/index.ts"
+onBoot = "npm install"
+run = "npm run start"
+
+
+
+[nix]
+	channel = "stable-22_11"
+
+
+
+[gitHubImport]
+	requiredFiles = [".replit", "replit.nix", "package.json", "pnpm-lock.yarn"]
+
+
+
+[debugger]
+	support = false

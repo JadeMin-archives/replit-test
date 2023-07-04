@@ -1,0 +1,15 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "tsx ./src/index.ts"
+	},
+	"dependencies": {
+		"cli-color": "^2.0.3",
+		"tsx": "^3.12.7"
+	},
+	"devDependencies": {
+		"@types/cli-color": "^2.0.2",
+		"@types/node": "^20.3.3"
+	}
+}
