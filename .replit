@@ -1,6 +1,6 @@
 language = "nix"
 
-hidden = [".config", "package-lock.json"]
+hidden = ["pnpm-lock.yaml"]
 entrypoint = "./src"
 onBoot = "pnpm install"
 run = "pnpm run start"
