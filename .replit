@@ -25,10 +25,7 @@ run = "pnpm run start"
 
 [languages]
 	[languages.javascript]
-		pattern = "**/{*.js, *.jsx, *.ts, *.tsx, *.json}"
-
-		[languages.javascript.languageServer]
-			start = "typescript-language-server --stdio"
+		pattern = ""
 
 
 [debugger]
