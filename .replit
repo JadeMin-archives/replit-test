@@ -1,7 +1,6 @@
 language = "nix"
 
 hidden = ["pnpm-lock.yaml"]
-entrypoint = "./src"
 onBoot = "pnpm install"
 run = "pnpm run start"
 
