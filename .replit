@@ -1,5 +1,5 @@
 hidden = [".config", "package-lock.json"]
-language = "nodejs"
+language = "javascript"
 
 entrypoint = "./src"
 
@@ -12,9 +12,15 @@ run = "pnpm run start"
 	channel = "stable-23_05"
 
 
+[packager]
+	language = "nodejs-pnpm"
+
+	[packager.features]
+		packageSearch = true
+		guessImports = true
+		enabledForHosting = false
+
+
+
 [gitHubImport]
 	requiredFiles = [".replit", "replit.nix", "package.json", "pnpm-lock.yarn"]
-
-
-[debugger]
-	support = false
