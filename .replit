@@ -1,7 +1,7 @@
 language = "nix"
 
 hidden = [".config", "pnpm-lock.yaml"]
-onBoot = "pnpm install"
+# onBoot = "pnpm install"
 run = "pnpm run start"
 
 [gitHubImport]
@@ -11,3 +11,13 @@ run = "pnpm run start"
 
 [nix]
 	channel = "stable-23_05"
+
+
+[packager]
+	language = "nodejs-pnpm"
+	afterInstall = "echo 'All requirements has been installed!'"
+
+	[packager.features]
+		packageSearch = true
+		guessImports = true
+		enabledForHosting = false
