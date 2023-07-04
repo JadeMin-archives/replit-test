@@ -1,5 +1,5 @@
-import clc from 'cli-color';
+import CLC from 'cli-color';
 
 
 
-console.log(clc.green("Hello, World!"));
+console.log(CLC.green("Hello, World!"));
