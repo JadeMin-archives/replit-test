@@ -1,11 +1,11 @@
 language = "nix"
 
 hidden = [".config", "pnpm-lock.yaml"]
-onBoot = "pnpm install"
+# onBoot = "pnpm install"
 run = "pnpm run start"
 
 [gitHubImport]
-	requiredFiles = [".replit", "replit.nix", ".config", "package.json", "pnpm-lock.yarn"]
+	requiredFiles = [".replit", "replit.nix", ".config", "package.json", "pnpm-lock.yaml"]
 
 
 
