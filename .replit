@@ -2,6 +2,7 @@ language = "nix"
 
 hidden = [".config", "pnpm-lock.yaml", "tsconfig.json"]
 # onBoot = "pnpm install"
+compile = ""
 run = "pnpm run start"
 
 [gitHubImport]
