@@ -4,8 +4,10 @@ hidden = [".config", "pnpm-lock.yaml", "tsconfig.json"]
 # onBoot = "pnpm install"
 compile = """
 clear
-echo -e "\\033[0;31mWARNING: Please set \"Workspace Template\" to \"Blank Repl\" before importing.\\033[0m"
-echo \n"""
+echo
+echo -e "\\e[0;31m" "WARNING: Please set" "\\e[40m" "Workspace Template" "\\e[0m\\e[0;31m" "to" "\\e[40m" "Blank Repl" "\\e[0m\\e[0;31m" "before importing." "\\e[0m"
+echo
+"""
 run = "pnpm run start"
 
 [gitHubImport]
