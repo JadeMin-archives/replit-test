@@ -1,6 +1,6 @@
 language = "nix"
 
-hidden = [".config", "pnpm-lock.yaml"]
+hidden = [".config", "pnpm-lock.yaml", "tsconfig.json"]
 # onBoot = "pnpm install"
 run = "pnpm run start"
 
