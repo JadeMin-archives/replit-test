@@ -2,7 +2,7 @@ language = "nix"
 
 hidden = [".config", "pnpm-lock.yaml", "tsconfig.json"]
 # onBoot = "pnpm install"
-compile = "echo \"\033[0;31mWARNING: Please set \\"workspace template\\" to \\"Blank Repl\\".\033[0m\""
+compile = "echo \"\033[0;31mWARNING: Please set \\"workspace template\\" to \\"Blank Repl\\" before importing.\033[0m\""
 run = "pnpm run start"
 
 [gitHubImport]
