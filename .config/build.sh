@@ -1,4 +1,3 @@
 #!/bin/sh
 
-echo "WARNING: An error occurred while setting up."
-echo "WARNING: Maybe \"workspace template\" is set to \"TypeScript\", not \"Blank Repl\"?"
+echo "WARNING: Please set \"workspace template\" to \"Blank Repl\" before importing."
